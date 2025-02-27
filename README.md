@@ -31,7 +31,7 @@ Antes de começar, você precisará ter o seguinte instalado em seu sistema:
 Clone o repositório para seu ambiente local usando o comando:
 
 ```bash
-git clone https://github.com/sir-braz/Lightweight-System-Info-Tool.git
+git clone https://github.com/sir-braz/fetchlight.git
 ```
 
 ### 2. Navegar para o Diretório
