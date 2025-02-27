@@ -31,7 +31,7 @@ Antes de começar, você precisará ter o seguinte instalado em seu sistema:
 Clone o repositório para seu ambiente local usando o comando:
 
 ```bash
-git clone https://github.com/sir-braz/fetchlight.git
+git clone https://github.com/sir-braz/sysquick.git
 ```
 
 ### 2. Navegar para o Diretório
@@ -39,7 +39,7 @@ git clone https://github.com/sir-braz/fetchlight.git
 Acesse o diretório do projeto:
 
 ```bash
-cd fetchLight-System-Info-Tool
+cd sysquick
 ```
 
 ### 3. Compilar o Código
@@ -47,7 +47,7 @@ cd fetchLight-System-Info-Tool
 Compile o código usando o `g++`:
 
 ```bash
-g++ FetchLight.cpp -o FetchLight
+g++ sysquick.cpp -o sysquick
 ```
 
 ### 4. Executar o Programa
@@ -55,7 +55,7 @@ g++ FetchLight.cpp -o FetchLight
 Após a compilação, execute o programa:
 
 ```bash
-./FetchLight
+./sysquick
 ```
 
 O programa irá exibir informações do sistema no terminal, como o nome do sistema, versão do kernel e a quantidade de memória total e livre.
@@ -65,12 +65,9 @@ O programa irá exibir informações do sistema no terminal, como o nome do sist
 A saída do programa será algo similar a:
 
 ```
-  L       III   GGGGG  H     H  TTTTT  
-  L        I    G      H     H    T    
-  L        I    G  GG  HHHHHHH    T    
-  L        I    G   G  H     H    T    
-  LLLLL   III   GGGG   H     H    T    
-              💡 FetchLight System Info Tool
+  S   Y   S   Q   U   I   C   K  
+  --------------------------------
+            💡 SysQuick System Info Tool
 
 +----------------+-------------------------+
 | Sistema        | Linux                   |
@@ -85,5 +82,4 @@ A saída do programa será algo similar a:
 ## Contribuições
 
 Contribuições são bem-vindas! Se você tiver sugestões de melhorias ou quiser adicionar novos recursos, sinta-se à vontade para abrir uma *issue* ou fazer um *pull request*.
-
 
