@@ -1,8 +1,8 @@
-# FetchLight System Info Tool
+# SysQuick System Info Tool
 
 ## Descrição
 
-O **FetchLight System Info Tool** é uma ferramenta simples desenvolvida em C++ para exibir informações essenciais do sistema operacional Linux, como:
+O **SysQuick System Info Tool** é uma ferramenta simples desenvolvida em C++ para exibir informações essenciais do sistema operacional Linux, como:
 
 - Nome do sistema (Sistema operacional).
 - Versão do Kernel.
