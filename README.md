@@ -1,8 +1,8 @@
-# Lightweight System Info Tool
+# FetchLight System Info Tool
 
 ## Descrição
 
-O **Lightweight System Info Tool** é uma ferramenta simples desenvolvida em C++ para exibir informações essenciais do sistema operacional Linux, como:
+O **FetchLight System Info Tool** é uma ferramenta simples desenvolvida em C++ para exibir informações essenciais do sistema operacional Linux, como:
 
 - Nome do sistema (Sistema operacional).
 - Versão do Kernel.
@@ -39,7 +39,7 @@ git clone https://github.com/sir-braz/Lightweight-System-Info-Tool.git
 Acesse o diretório do projeto:
 
 ```bash
-cd Lightweight-System-Info-Tool
+cd fetchLight-System-Info-Tool
 ```
 
 ### 3. Compilar o Código
