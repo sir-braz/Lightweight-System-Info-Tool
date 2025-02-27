@@ -70,7 +70,7 @@ A saída do programa será algo similar a:
   L        I    G  GG  HHHHHHH    T    
   L        I    G   G  H     H    T    
   LLLLL   III   GGGG   H     H    T    
-              💡 Lightweight System Info Tool
+              💡 FetchLight System Info Tool
 
 +----------------+-------------------------+
 | Sistema        | Linux                   |
