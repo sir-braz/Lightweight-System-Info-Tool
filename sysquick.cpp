@@ -16,15 +16,15 @@ void setMinimalistBackground() {
     cout << "\033[2J\033[H"; // Limpa a tela e move o cursor para o topo
 }
 
-// Função para exibir o banner com as letras "L", "I", "G", "H" e "T" estilizadas
+// Função para exibir o banner com as letras "S", "Y", "S", "Q", "U", "I", "C", "K" estilizadas
 void showBanner() {
     cout << FG_YELLOW;
-    cout << "  L       III   GGGGG  H     H  TTTTT  " << endl;
-    cout << "  L        I    G      H     H    T    " << endl;
-    cout << "  L        I    G  GG  HHHHHHH    T    " << endl;
-    cout << "  L        I    G   G  H     H    T    " << endl;
-    cout << "  LLLLL   III   GGGG   H     H    T    " << endl;
-    cout << "              💡 Lightweight System Info Tool\n\n" << RESET;
+    cout << "  SSSSS  Y   Y  SSSSS   QQQQQ  U   U  III   CCCCC  K   K" << endl;
+    cout << " S        Y Y   S      Q     Q U   U   I    C      K  K " << endl;
+    cout << "  SSSSS    Y     SSSSS Q     Q U   U   I    C      KKK  " << endl;
+    cout << "      S    Y         S Q   Q Q U   U   I    C      K  K " << endl;
+    cout << "  SSSSS    Y    SSSSS   QQQQ Q  UUUU   III   CCCCC K   K" << endl;
+    cout << "              🚀 Quick System Info Tool\n\n" << RESET;
 }
 
 // Função para exibir informações do sistema

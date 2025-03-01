@@ -1,85 +1,79 @@
-# SysQuick System Info Tool
+# SysQuick - Quick System Info Tool
 
-## Descrição
+**SysQuick** é uma ferramenta simples para exibir informações rápidas sobre o sistema, como nome do sistema operacional, versão do kernel, arquitetura e informações de memória.
 
-O **SysQuick System Info Tool** é uma ferramenta simples desenvolvida em C++ para exibir informações essenciais do sistema operacional Linux, como:
+### Funcionalidades
 
-- Nome do sistema (Sistema operacional).
-- Versão do Kernel.
-- Arquitetura do sistema.
-- Memória total e memória livre.
+- Exibe o nome do sistema, versão do kernel e arquitetura.
+- Mostra a memória total e livre disponível.
+- Visual minimalista com cores personalizáveis.
 
-A ideia dessa ferramenta é fornecer informações rápidas e essenciais sobre o sistema de uma forma minimalista e fácil de entender.
+### Requisitos
 
-## Funcionalidades
+- Linux (ou sistema com suporte a `sysinfo.h` e `utsname.h`)
+- Compilador C++ (g++ ou equivalente)
 
-- Exibe informações do sistema, como nome e versão do kernel.
-- Mostra a quantidade de memória total e memória livre disponível.
-- Interface limpa e de fácil leitura, usando cores para destaque.
+### Como usar
 
-## Pré-requisitos
+#### 1. **Instalar via Snap** (se disponível)
 
-Antes de começar, você precisará ter o seguinte instalado em seu sistema:
-
-- **g++**: Compilador C++.
-- **Sistema Linux**: Este código foi desenvolvido para rodar em sistemas operacionais baseados em Linux.
-
-## Como Usar
-
-### 1. Clonar o Repositório
-
-Clone o repositório para seu ambiente local usando o comando:
+ Se voce deseja instalar o SysQuick rapidamente, você pode usar o **Snap**. Basta rodar o seguinte comando no terminal:
 
 ```bash
-git clone https://github.com/sir-braz/sysquick.git
+sudo snap install sysquick
 ```
 
-### 2. Navegar para o Diretório
+#### 2. **Compilar a partir do código-fonte**
 
-Acesse o diretório do projeto:
+Se você preferir compilar a partir do código-fonte:
 
-```bash
-cd sysquick
-```
+1. **Clone o repositório:**
 
-### 3. Compilar o Código
+   ```bash
+   git clone https://github.com/sir-braz/sysquick.git
+   cd sysquick
+   ```
 
-Compile o código usando o `g++`:
+2. **Compile o código:**
 
-```bash
-g++ sysquick.cpp -o sysquick
-```
+   Se você não tiver um compilador C++ instalado, instale-o primeiro. No caso do Ubuntu, você pode usar o seguinte comando:
 
-### 4. Executar o Programa
+   ```bash
+   sudo apt update
+   sudo apt install g++
+   ```
 
-Após a compilação, execute o programa:
+   Depois, compile o programa com o comando:
 
-```bash
-./sysquick
-```
+   ```bash
+   g++ -o sysquick sysquick.cpp
+   ```
 
-O programa irá exibir informações do sistema no terminal, como o nome do sistema, versão do kernel e a quantidade de memória total e livre.
+3. **Execute o programa:**
 
-## Exemplo de Saída
+   Após a compilação, execute o programa com:
 
-A saída do programa será algo similar a:
+   ```bash
+   ./sysquick
+   ```
 
-```
-  S   Y   S   Q   U   I   C   K  
-  --------------------------------
-            💡 SysQuick System Info Tool
+### Exemplo de Saída
+
+```plaintext
+  SSSSS  Y   Y  SSSSS   QQQQQ  U   U  III   CCCCC  K   K
+ S        Y Y   S      Q     Q U   U   I    C      K  K 
+  SSSSS    Y     SSSSS Q     Q U   U   I    C      KKK  
+      S    Y         S Q   Q Q U   U   I    C      K  K 
+  SSSSS    Y    SSSSS   QQQQ Q  UUUU   III   CCCCC K   K
+              🚀 Quick System Info Tool
 
 +----------------+-------------------------+
 | Sistema        | Linux                   |
-| Kernel         | 5.4.0-80-generic        |
+| Kernel         | 5.4.0-73-generic        |
 | Arquitetura    | x86_64                  |
 +----------------+-------------------------+
-| Memória Total  | 8192 MB                 |
+| Memória Total  | 8000 MB                 |
 | Memória Livre  | 2048 MB                 |
 +----------------+-------------------------+
 ```
-
-## Contribuições
-
-Contribuições são bem-vindas! Se você tiver sugestões de melhorias ou quiser adicionar novos recursos, sinta-se à vontade para abrir uma *issue* ou fazer um *pull request*.
 
