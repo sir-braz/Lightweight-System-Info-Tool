@@ -15,7 +15,7 @@
 
 ### Como usar
 
-#### 1. **Instalar via Snap** (se disponível)
+#### 1. **Instalar via Snap**
 
  Se voce deseja instalar o SysQuick rapidamente, você pode usar o **Snap**. Basta rodar o seguinte comando no terminal:
 
